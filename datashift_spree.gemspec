@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
   s.summary = "Product and image import/export for Spree from Excel/CSV"
-
-  s.add_runtime_dependency 'rails', '>= 4.2', '< 5.1'
+  spree_version = '>= 3.7.0', '< 5'
+  s.add_runtime_dependency 'rails', '>= 4.2', '~> 6'
   s.add_runtime_dependency 'datashift'
   s.add_runtime_dependency 'mechanize', '~> 2.6', '>= 2.6.0'
 
